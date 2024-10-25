@@ -6,15 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Attach the event listener to the form element
     form.addEventListener("submit", function (event) {
       event.preventDefault(); // Prevent the form from submitting normally
-    //   checkPalindrome();
-      textGenerator();
+      checkPalindrome();
     });
-  
-    function textGenerator(){
-        text = randomtext[Math.floor(Math.random() * randomtext.length)];
-        alert(text);
-    }
-
 
     function checkPalindrome() {
         const inputPalindrome = document.getElementById("inputPalindrome").value;
