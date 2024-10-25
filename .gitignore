@@ -1,0 +1,8 @@
+# Android-related files
+adbcommand*
+
+# Cache files
+.cache-eviction-marker
+
+# Lock files
+*.lock
